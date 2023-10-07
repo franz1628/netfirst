@@ -1,0 +1,40 @@
+@host=https://localhost:4316
+
+###
+GET {{host}}/solicitud/listar
+###
+POST {{host}}/solicitud/findByDocument
+Content-Type: application/json
+
+{
+    "idTipoDocumento": 1,
+    "numeroDocumento": "12345678",
+    "idCliente": 7
+}
+###
+GET {{host}}/cliente/listar
+###
+GET {{host}}/parametro/tipoDocumento
+###
+GET {{host}}/api/plan/porCliente/7
+###
+GET {{host}}/ubigeo/departamentos
+###
+GET {{host}}/ubigeo/provincias/10
+###
+GET {{host}}/ubigeo/distritos/10:06
+###
+GET {{host}}/declaracion/procedimientos?search=pro
+###
+GET {{host}}/declaracion/preexistencias?search=pro
+###
+GET {{host}}/cambioPlan/listarAfiliados/2
+
+###
+POST {{host}}/api/usuario/login
+Content-Type: application/json
+
+{
+    "usuario": "10101010",
+    "password": "10101010"
+}

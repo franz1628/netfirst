@@ -1,0 +1,13 @@
+.vs
+.vscode
+node_modules
+yarn.lock
+package-lock.json
+**/bin/
+**/obj/
+**/PublishProfiles
+**.csproj.user
+/SuSalud.FrontEnd.Plataforma/Uploads
+pub/
+SuSalud.FrontEnd.Plataforma/wwwroot/
+SuSalud.FrontEnd.Plataforma/appsettings.json

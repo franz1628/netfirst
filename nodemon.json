@@ -1,0 +1,24 @@
+{
+  "watch": [
+    "SuSalud.Back.BL/**/*",
+    "SuSalud.Back.DA/**/*",
+    "SuSalud.FrontEnd.Plataforma/**/*",
+    "SuSalud.Transversal.Entidades/**/*",
+    "SuSalud.Transversal.Utilidades/**/*"
+  ],
+  "ext": "cs",
+  "ignore": [
+    "node_modules",
+    "SuSalud.Back.BL/bin/**/*",
+    "SuSalud.Back.BL/obj/**/*",
+    "SuSalud.Back.DA/bin/**/*",
+    "SuSalud.Back.DA/obj/**/*",
+    "SuSalud.FrontEnd.Plataforma/bin/**/*",
+    "SuSalud.FrontEnd.Plataforma/obj/**/*",
+    "SuSalud.Transversal.Entidades/bin/**/*",
+    "SuSalud.Transversal.Entidades/obj/**/*",
+    "SuSalud.Transversal.Utilidades/bin/**/*",
+    "SuSalud.Transversal.Utilidades/obj/**/*"
+  ],
+  "exec": "dotnet build && dotnet run --project SuSalud.FrontEnd.Plataforma/SuSalud.FrontEnd.Plataforma.csproj"
+}

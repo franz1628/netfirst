@@ -1,0 +1,1 @@
+dotnet publish ./SuSalud.FrontEnd.Plataforma/SuSalud.FrontEnd.Plataforma.csproj -o ./pub/
